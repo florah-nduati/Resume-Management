@@ -17,12 +17,12 @@ namespace Backend.Context
         {
             base.OnModelCreating(modelBuilder);
 
-            // Configure relationships
-            // modelBuilder.Entity<Company>()
-            //     .HasMany(c => c.Jobs)
-            //     .WithOne(j => j.Company)
-            //     .HasForeignKey(j => j.CompanyId);
+            // Set schema to 'resume' for all tables
+            modelBuilder.Entity<Company>().ToTable("Companies", "resume");
+            modelBuilder.Entity<Job>().ToTable("Jobs", "resume");
+            modelBuilder.Entity<Candidate>().ToTable("Candidates", "resume");
 
+            // Configure relationships
             modelBuilder.Entity<Job>()
                 .HasOne(job => job.Company)
                 .WithMany(company => company.Jobs)

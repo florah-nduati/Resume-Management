@@ -156,3 +156,4 @@ C:\Users\FlorahNyokabiNduati\OneDrive - THH LLC\Documents\Resume Management\Back
 C:\Users\FlorahNyokabiNduati\OneDrive - THH LLC\Documents\Resume Management\Backend\bin\Debug\net10.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\FlorahNyokabiNduati\OneDrive - THH LLC\Documents\Resume Management\Backend\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\FlorahNyokabiNduati\OneDrive - THH LLC\Documents\Resume Management\Backend\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\FlorahNyokabiNduati\OneDrive - THH LLC\Documents\Resume Management\Backend\obj\Debug\net10.0\Backend.sourcelink.json
